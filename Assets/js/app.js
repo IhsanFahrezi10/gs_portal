@@ -108,3 +108,17 @@ document.addEventListener("DOMContentLoaded", function () {
   // --- Initial Load ---
   calculateCarousel();
 });
+
+// Asumsikan sidebar adalah elemen yang akan memicu event
+const sidebar = document.getElementById("sidebar");
+const container = document.querySelector(".contain");
+
+// Saat kursor masuk ke area sidebar, tambahkan class
+sidebar.addEventListener("mouseenter", () => {
+  container.classList.add("sidebar-open");
+});
+
+// Saat kursor keluar dari area sidebar, hapus class
+sidebar.addEventListener("mouseleave", () => {
+  container.classList.remove("sidebar-open");
+});
