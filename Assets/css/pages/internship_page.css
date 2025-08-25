@@ -122,8 +122,9 @@
   color: black;
 }
 
-.manager-role {
-  width: fit-content;
+.mentor-role {
+  max-width: 300px;
+  width: 100%;
   align-items: center;
   font-size: 15px;
   font-weight: 900;

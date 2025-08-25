@@ -123,7 +123,8 @@
 }
 
 .manager-role {
-  width: fit-content;
+  max-width: 300px;
+  width: 100%;
   align-items: center;
   font-size: 15px;
   font-weight: 900;
